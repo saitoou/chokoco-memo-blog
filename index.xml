@@ -1,51 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chokoco Memo</title><link>https://saitoou.github.io/chokoco-memo-blog/</link><description>Recent content on Chokoco Memo</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sat, 16 Aug 2025 11:45:46 +0900</lastBuildDate><atom:link href="https://saitoou.github.io/chokoco-memo-blog/index.xml" rel="self" type="application/rss+xml"/><item><title>テーブルを縦持ちから横持ちに変更する</title><link>https://saitoou.github.io/chokoco-memo-blog/article/2025_08_16/</link><pubDate>Sat, 16 Aug 2025 11:45:46 +0900</pubDate><guid>https://saitoou.github.io/chokoco-memo-blog/article/2025_08_16/</guid><description>&lt;h3 id="quicksightでテーブルを縦持ちから横持ちに変更した">QuickSightでテーブルを縦持ちから横持ちに変更した&lt;/h3>
-&lt;p>※2023年ごろに書いていたメモを記載しています。&lt;/p>
-&lt;p>以下のようなデータが入ったテーブルがあったとする&lt;/p>
-&lt;ul>
-&lt;li>Table Name: survey&lt;/li>
-&lt;/ul>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>uid&lt;/th>
- &lt;th>question&lt;/th>
- &lt;th>answer&lt;/th>
- &lt;th>sentence&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>10&lt;/td>
- &lt;td>‘0001’&lt;/td>
- &lt;td>X&lt;/td>
- &lt;td>何で知りましたか&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2&lt;/td>
- &lt;td>‘0002’&lt;/td>
- &lt;td>car&lt;/td>
- &lt;td>何できましたか&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>21&lt;/td>
- &lt;td>‘0001’&lt;/td>
- &lt;td>instagram&lt;/td>
- &lt;td>何で知りましたか&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>6&lt;/td>
- &lt;td>‘0001’&lt;/td>
- &lt;td>facebook&lt;/td>
- &lt;td>何で知りましたか&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>11&lt;/td>
- &lt;td>‘0002’&lt;/td>
- &lt;td>bus&lt;/td>
- &lt;td>何できましたか&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;p>このようなテーブルをid,Question, Answerのような並びにしたい。&lt;/p></description></item><item><title>Matterについてまとめる</title><link>https://saitoou.github.io/chokoco-memo-blog/article/2025_08_02/</link><pubDate>Sun, 03 Aug 2025 00:20:21 +0900</pubDate><guid>https://saitoou.github.io/chokoco-memo-blog/article/2025_08_02/</guid><description>&lt;h2 id="スマートホームの規格matterについて学んでみる">スマートホームの規格Matterについて学んでみる&lt;/h2>
-&lt;p>CES2023で話題になったMatterについて気になったので学んでまとめたいと思います。&lt;/p>
-&lt;p>昨今スマートホーム化が話題となっているが、各社が独自のスマートホームデバイス(IoTデバイス)を開発・販売している。それらのデバイスはHubにつなぐことで生活のなかで便利である体験を生み出すが、各社が出しているHubに対応するのは自社製品が基本的になっている。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chokoco Memo</title><link>https://saitoou.github.io/chokoco-memo-blog/</link><description>Recent content on Chokoco Memo</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Tue, 24 Feb 2026 23:42:53 +0900</lastBuildDate><atom:link href="https://saitoou.github.io/chokoco-memo-blog/index.xml" rel="self" type="application/rss+xml"/><item><title>sync.Onceと環境変数の読み込み</title><link>https://saitoou.github.io/chokoco-memo-blog/article/2026_02_24/</link><pubDate>Tue, 24 Feb 2026 23:42:53 +0900</pubDate><guid>https://saitoou.github.io/chokoco-memo-blog/article/2026_02_24/</guid><description>&lt;h2 id="synconceと環境変数の読み込みについて"&gt;sync.Onceと環境変数の読み込みについて&lt;/h2&gt;
+&lt;p&gt;アプリを立ち上げた際に一度だけ実行したい処理などがあると思います。
+それらの要望を叶えるのが、golangのsync.Onceです。&lt;/p&gt;
+&lt;h3 id="synconceについて"&gt;sync.Onceについて&lt;/h3&gt;
+&lt;p&gt;syncパッケージには処理を一回のみの実行を担保するOnce型が提供されている。これを用い、Doメソッドで呼ぶことで複数回呼び出されても一回のみしか実行しないようにできます。&lt;/p&gt;</description></item><item><title>テーブルを縦持ちから横持ちに変更する</title><link>https://saitoou.github.io/chokoco-memo-blog/article/2025_08_16/</link><pubDate>Sat, 16 Aug 2025 11:45:46 +0900</pubDate><guid>https://saitoou.github.io/chokoco-memo-blog/article/2025_08_16/</guid><description>&lt;h3 id="quicksightでテーブルを縦持ちから横持ちに変更した"&gt;QuickSightでテーブルを縦持ちから横持ちに変更した&lt;/h3&gt;
+&lt;p&gt;※2023年ごろに書いていたメモを記載しています。&lt;/p&gt;
+&lt;p&gt;以下のようなデータが入ったテーブルがあったとする&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Table Name: survey&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;uid&lt;/th&gt;
+ &lt;th&gt;question&lt;/th&gt;
+ &lt;th&gt;answer&lt;/th&gt;
+ &lt;th&gt;sentence&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;10&lt;/td&gt;
+ &lt;td&gt;‘0001’&lt;/td&gt;
+ &lt;td&gt;X&lt;/td&gt;
+ &lt;td&gt;何で知りましたか&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;‘0002’&lt;/td&gt;
+ &lt;td&gt;car&lt;/td&gt;
+ &lt;td&gt;何できましたか&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;21&lt;/td&gt;
+ &lt;td&gt;‘0001’&lt;/td&gt;
+ &lt;td&gt;instagram&lt;/td&gt;
+ &lt;td&gt;何で知りましたか&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;‘0001’&lt;/td&gt;
+ &lt;td&gt;facebook&lt;/td&gt;
+ &lt;td&gt;何で知りましたか&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;11&lt;/td&gt;
+ &lt;td&gt;‘0002’&lt;/td&gt;
+ &lt;td&gt;bus&lt;/td&gt;
+ &lt;td&gt;何できましたか&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;このようなテーブルをid,Question, Answerのような並びにしたい。&lt;/p&gt;</description></item><item><title>Matterについてまとめる</title><link>https://saitoou.github.io/chokoco-memo-blog/article/2025_08_02/</link><pubDate>Sun, 03 Aug 2025 00:20:21 +0900</pubDate><guid>https://saitoou.github.io/chokoco-memo-blog/article/2025_08_02/</guid><description>&lt;h2 id="スマートホームの規格matterについて学んでみる"&gt;スマートホームの規格Matterについて学んでみる&lt;/h2&gt;
+&lt;p&gt;CES2023で話題になったMatterについて気になったので学んでまとめたいと思います。&lt;/p&gt;
+&lt;p&gt;昨今スマートホーム化が話題となっているが、各社が独自のスマートホームデバイス(IoTデバイス)を開発・販売している。それらのデバイスはHubにつなぐことで生活のなかで便利である体験を生み出すが、各社が出しているHubに対応するのは自社製品が基本的になっている。&lt;/p&gt;</description></item></channel></rss>
