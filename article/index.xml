@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Articles on Chokoco Memo</title><link>https://saitoou.github.io/chokoco-memo-blog/article/</link><description>Recent content in Articles on Chokoco Memo</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sat, 14 Mar 2026 16:52:19 +0900</lastBuildDate><atom:link href="https://saitoou.github.io/chokoco-memo-blog/article/index.xml" rel="self" type="application/rss+xml"/><item><title>goのプライベートリポジトリの取り込み方</title><link>https://saitoou.github.io/chokoco-memo-blog/article/2026_03_14/</link><pubDate>Sat, 14 Mar 2026 16:52:19 +0900</pubDate><guid>https://saitoou.github.io/chokoco-memo-blog/article/2026_03_14/</guid><description>&lt;h3 id="githubのプライベートリポジトリをgoモジュールで取り込む方法"&gt;GithubのプライベートリポジトリをGoモジュールで取り込む方法&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Articles on Chokoco Memo</title><link>https://saitoou.github.io/chokoco-memo-blog/article/</link><description>Recent content in Articles on Chokoco Memo</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 15 Mar 2026 15:59:25 +0900</lastBuildDate><atom:link href="https://saitoou.github.io/chokoco-memo-blog/article/index.xml" rel="self" type="application/rss+xml"/><item><title>golangci-lintについてまとめる</title><link>https://saitoou.github.io/chokoco-memo-blog/article/2026_03_15/</link><pubDate>Sun, 15 Mar 2026 15:59:25 +0900</pubDate><guid>https://saitoou.github.io/chokoco-memo-blog/article/2026_03_15/</guid><description>&lt;h3 id="golangのリンターと設定について"&gt;Golangのリンターと設定について&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;リンターというのは書いたコードに対して誤りがないか、その言語に対してよくない書き方をしていないかなどを検知するツールです。&lt;/li&gt;
+&lt;li&gt;特にgolangではgolangci-lintという便利なツールがあるので、かつ自身が実務で使っていたのでその設定や使い方についてメモします。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;インストール方法は自身はMacなので&lt;code&gt;brew install golangci-lint&lt;/code&gt;実行で完了。&lt;/p&gt;</description></item><item><title>goのプライベートリポジトリの取り込み方</title><link>https://saitoou.github.io/chokoco-memo-blog/article/2026_03_14/</link><pubDate>Sat, 14 Mar 2026 16:52:19 +0900</pubDate><guid>https://saitoou.github.io/chokoco-memo-blog/article/2026_03_14/</guid><description>&lt;h3 id="githubのプライベートリポジトリをgoモジュールで取り込む方法"&gt;GithubのプライベートリポジトリをGoモジュールで取り込む方法&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;自身が実務でgoのモジュールをプロジェクトに取り入れる時に、会社内でのプライベートリポジトリのモジュールを導入する必要があり、やり方を知らなかったのでメモとして残します。&lt;/p&gt;</description></item><item><title>sql_mockについて勉強する</title><link>https://saitoou.github.io/chokoco-memo-blog/article/2026_03_11/</link><pubDate>Tue, 10 Mar 2026 23:43:09 +0900</pubDate><guid>https://saitoou.github.io/chokoco-memo-blog/article/2026_03_11/</guid><description>&lt;h3 id="dbのユニットテスト"&gt;DBのユニットテスト&lt;/h3&gt;
@@ -61,9 +66,4 @@
 &lt;/table&gt;
 &lt;p&gt;このようなテーブルをid,Question, Answerのような並びにしたい。&lt;/p&gt;</description></item><item><title>Matterについてまとめる</title><link>https://saitoou.github.io/chokoco-memo-blog/article/2025_08_02/</link><pubDate>Sun, 03 Aug 2025 00:20:21 +0900</pubDate><guid>https://saitoou.github.io/chokoco-memo-blog/article/2025_08_02/</guid><description>&lt;h2 id="スマートホームの規格matterについて学んでみる"&gt;スマートホームの規格Matterについて学んでみる&lt;/h2&gt;
 &lt;p&gt;CES2023で話題になったMatterについて気になったので学んでまとめたいと思います。&lt;/p&gt;
-&lt;p&gt;昨今スマートホーム化が話題となっているが、各社が独自のスマートホームデバイス(IoTデバイス)を開発・販売している。それらのデバイスはHubにつなぐことで生活のなかで便利である体験を生み出すが、各社が出しているHubに対応するのは自社製品が基本的になっている。&lt;/p&gt;</description></item><item><title/><link>https://saitoou.github.io/chokoco-memo-blog/article/2026_03_15/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://saitoou.github.io/chokoco-memo-blog/article/2026_03_15/</guid><description>&lt;h3 id="golangのリンターと設定について"&gt;Golangのリンターと設定について&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;リンターというのは書いたコードに対して誤りがないか、その言語に対してよくない書き方をしていないかなどを検知するツールです。&lt;/li&gt;
-&lt;li&gt;特にgolangではgolangci-lintという便利なツールがあるので、かつ自身が実務で使っていたのでその設定や使い方についてメモします。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;インストール方法は自身はMacなので&lt;code&gt;brew install golangci-lint&lt;/code&gt;実行で完了。&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;昨今スマートホーム化が話題となっているが、各社が独自のスマートホームデバイス(IoTデバイス)を開発・販売している。それらのデバイスはHubにつなぐことで生活のなかで便利である体験を生み出すが、各社が出しているHubに対応するのは自社製品が基本的になっている。&lt;/p&gt;</description></item></channel></rss>
